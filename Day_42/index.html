@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="https://kit.fontawesome.com/0be3919bfe.js" crossorigin="anonymous"></script> -->
-    <link rel="stylesheet" href="style.css">
-    <title>My Project BoilerPlate</title>
-</head>
-<body>
-    <h1>Project Starter</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0be3919bfe.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Live User Search</title>
+  </head>
+  <body>
+    <section class="user-container">
+      <header>
+        <h1 class="title">Live Users</h1>
+        <small class="subtitle">Search by name and or location</small>
+        <input type="search" name="search" id="search" />
+      </header>
+      <ul id="results" class="user-list">
+        <li class="loading">
+          <h3>loading...</h3>
+        </li>
+      </ul>
+    </section>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
