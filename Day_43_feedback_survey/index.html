@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0be3919bfe.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Feedback Survey</title>
+  </head>
+  <body>
+    <div id="panel" class="panel-container">
+      <strong>How satisfied were you with your experience?</strong>
+      <div class="ratings-container">
+        <div class="rating">
+          <img src="./tired.svg" alt="unsatisfied" />
+          <small>unsatisfied</small>
+        </div>
+        <div class="rating">
+          <img src="./neutral.svg" alt="neutral" />
+          <small>neutral</small>
+        </div>
+        <div class="rating active">
+          <img src="./smiling.svg" alt="elated" />
+          <small>satisfied</small>
+        </div>
+      </div>
+      <button class="btn" id="send">send review</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
