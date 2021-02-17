@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0be3919bfe.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div class="quiz-container" id="quiz">
+      <header class="quiz-header">
+        <h1 id="question">Question Text</h1>
+        <ul class="answers">
+          <li>
+            <input type="radio" name="answer" class="answer" id="a" />
+            <label for="a" id="a_text">Question</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" class="answer" id="b" />
+            <label for="b" id="b_text">Question</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" class="answer" id="c" />
+            <label for="c" id="c_text">Question</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" class="answer" id="d" />
+            <label for="d" id="d_text">Question</label>
+          </li>
+        </ul>
+      </header>
+      <button id="submit">Submit</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
